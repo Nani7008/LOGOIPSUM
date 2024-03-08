@@ -41,6 +41,10 @@ p {
             cursor: pointer;            
             animation-timing-function: cubic-bezier(0.7, -0.4, 0.4, 1.4);
             animation-duration: 800ms;
+            &:hover{
+                box-shadow: rgba(212, 217, 232, 0.2) 0px 22px 70px 4px;
+
+            }
 
             
 

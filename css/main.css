@@ -1,3 +1,11 @@
+@keyframes animeobject {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(40px);
+  }
+}
 header .nav__list--item a::after {
   background: hsl(197, 100%, 71%);
   background: linear-gradient(90deg, hsl(197, 100%, 71%) 0%, hsl(252, 100%, 72%) 100%);
@@ -595,18 +603,44 @@ footer .footer__bottom p {
 #intro .wrapper__right img:nth-child(1) {
   top: -40px;
   left: 44px;
+  animation-name: animeobject;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 #intro .wrapper__right img:nth-child(2) {
   bottom: -100px;
   left: -76px;
+  animation-name: animeobject;
+  animation-duration: 1.4s;
+  animation-delay: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 #intro .wrapper__right img:nth-child(3) {
   top: -55px;
   right: 40px;
+  animation-name: animeobject;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 #intro .wrapper__right img:nth-child(4) {
   bottom: -20px;
   right: 40px;
+  animation-name: animeobject;
+  animation-duration: 1.4s;
+  animation-delay: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 
 #bottomintro {
@@ -648,6 +682,9 @@ footer .footer__bottom p {
   cursor: pointer;
   animation-timing-function: cubic-bezier(0.7, -0.4, 0.4, 1.4);
   animation-duration: 800ms;
+}
+#bottomintro .wrapper__bottom .card__item:hover {
+  box-shadow: rgba(212, 217, 232, 0.2) 0px 22px 70px 4px;
 }
 
 #midsection {
@@ -711,21 +748,47 @@ footer .footer__bottom p {
   position: absolute;
   top: -64px;
   left: -52px;
+  animation-name: animeobject;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 #fourth .wrapper__left .thirdpicture {
   position: absolute;
   top: 72px;
   left: 300px;
+  animation-name: animeobject;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.7s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 #fourth .wrapper__left .fourthpicture {
   position: absolute;
   top: -72px;
   left: 304px;
+  animation-name: animeobject;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 #fourth .wrapper__left .ikbal {
   position: absolute;
   right: 13px;
   top: 80px;
+  animation-name: animeobject;
+  animation-duration: 1.4s;
+  animation-delay: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 
 #girlsection {
@@ -782,5 +845,5 @@ footer .footer__bottom p {
 }
 #girlsection .wrapper__right button .bx-up-arrow-alt {
   font-size: 28px;
-  color: #8873F7;
+  color: #8873f7;
 }/*# sourceMappingURL=main.css.map */

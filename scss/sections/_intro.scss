@@ -43,21 +43,52 @@
         &:nth-child(1) {
           top: -40px;
           left: 44px;
+          animation-name: animeobject;
+          animation-duration: 1.4s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in;
+          animation-fill-mode: forwards;
+          animation-direction: alternate;
+         
+          
+
+
+
         }
 
         &:nth-child(2) {
           bottom: -100px;
           left: -76px;
+          animation-name: animeobject;
+          animation-duration: 1.4s;
+          animation-delay: 0.7s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in;
+          animation-fill-mode: forwards;
+          animation-direction: alternate;
         }
 
         &:nth-child(3) {
           top: -55px;
           right: 40px;
+          animation-name: animeobject;
+          animation-duration: 1.4s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in;
+          animation-fill-mode: forwards;
+          animation-direction: alternate;
         }
 
         &:nth-child(4) {
           bottom: -20px;
           right: 40px;
+          animation-name: animeobject;
+          animation-duration: 1.4s;
+          animation-delay: 0.7s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in;
+          animation-fill-mode: forwards;
+          animation-direction: alternate;
         }
       }
     }

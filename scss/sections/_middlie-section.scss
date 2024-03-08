@@ -73,24 +73,51 @@
                 position: absolute;
                 top: -64px;
                 left: -52px;
+                animation-name: animeobject;
+                animation-duration: 1.4s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in;
+                animation-fill-mode: forwards;
+                animation-direction: alternate;
             }
 
             .thirdpicture {
                 position: absolute;
                 top: 72px;
                 left: 300px;
+                animation-name: animeobject;
+                animation-duration: 1.4s;
+                animation-iteration-count: infinite;
+                animation-delay: 0.7s;
+                animation-timing-function: ease-in;
+                animation-fill-mode: forwards;
+                animation-direction: alternate;
             }
 
             .fourthpicture {
                 position: absolute;
                 top: -72px;
                 left: 304px;
+                animation-name: animeobject;
+
+                animation-duration: 1.4s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in;
+                animation-fill-mode: forwards;
+                animation-direction: alternate;
             }
 
             .ikbal {
                 position: absolute;
                 right: 13px;
                 top: 80px;
+                animation-name: animeobject;
+                animation-duration: 1.4s;
+                animation-delay: 0.7s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in;
+                animation-fill-mode: forwards;
+                animation-direction: alternate;
             }
         }
     }
@@ -146,29 +173,24 @@
                     bottom: 171px;
                     right: -8px;
                 }
+            }
 
-              
+            button {
+                position: fixed;
+                right: 50px;
+                bottom: 40px;
+                width: 56px;
+                height: 56px;
+                border-radius: 88px;
+                background-color: rgba(235, 230, 250, 1);
+                font-weight: 48px;
+                cursor: pointer;
+
+                .bx-up-arrow-alt {
+                    font-size: 28px;
+                    color: #8873f7;
                 }
-                button {
-                    position: fixed;
-                    right: 50px;
-                    bottom: 40px;
-                    width: 56px;
-                    height: 56px;
-                    border-radius: 88px;
-                    background-color: rgba(235, 230, 250, 1);
-                    font-weight: 48px;
-                    cursor: pointer;
-
-                    .bx-up-arrow-alt {
-                        font-size: 28px;
-                        color: #8873F7;
-                    }
-
-
             }
         }
     }
 }
-
-
