@@ -819,18 +819,44 @@ footer .footer__bottom p {
 #girlsection .wrapper__right img:nth-child(1) {
   top: 293px;
   left: -79px;
+  animation-name: animeobject;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 #girlsection .wrapper__right img:nth-child(2) {
   bottom: -154px;
   left: 26px;
+  animation-name: animeobject;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 #girlsection .wrapper__right img:nth-child(3) {
   top: 4px;
   right: 395px;
+  animation-name: animeobject;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-delay: 0.7s;
 }
 #girlsection .wrapper__right img:nth-child(4) {
   bottom: 171px;
   right: -8px;
+  animation-name: animeobject;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-delay: 0.7s;
 }
 #girlsection .wrapper__right button {
   position: fixed;
