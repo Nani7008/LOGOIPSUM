@@ -1,5 +1,6 @@
 #midsection {
     padding-top: 80px;
+
     .wrapper {
         display: flex;
         align-items: center;
@@ -42,14 +43,15 @@
         }
     }
 }
+
 // Mid section ends /* Character/Ikbal 5 */
 
 #fourth {
     padding-top: 222px;
+
     .wrapper {
         display: flex;
         gap: 172px;
-        
 
         &__right {
             margin-top: -30px;
@@ -94,76 +96,79 @@
     }
 }
 
-
 // Fifth page starts
 #girlsection {
-   padding-top: 245px;
-   .wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 140px;
+    padding-top: 245px;
 
-    &__left {
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 140px;
 
-        button {
-            @extend %btnPrimary;
-            margin-top: 40px;
+        &__left {
+            button {
+                @extend %btnPrimary;
+                margin-top: 40px;
+            }
+        }
+
+        &__right {
+            flex-grow: 2;
+
+            position: relative;
+            background-image: url("../../assets/images/cicle.svg");
+            width: 500px;
+            height: 500px;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            img {
+                position: absolute;
+
+                &:nth-child(1) {
+                    top: 293px;
+                    left: -79px;
+                }
+
+                &:nth-child(2) {
+                    bottom: -154px;
+                    left: 26px;
+                }
+
+                &:nth-child(3) {
+                    top: 4px;
+                    right: 395px;
+                }
+
+                &:nth-child(4) {
+                    bottom: 171px;
+                    right: -8px;
+                }
+
+              
+                }
+                button {
+                    position: fixed;
+                    right: 50px;
+                    bottom: 40px;
+                    width: 56px;
+                    height: 56px;
+                    border-radius: 88px;
+                    background-color: rgba(235, 230, 250, 1);
+                    font-weight: 48px;
+                    cursor: pointer;
+
+                    .bx-up-arrow-alt {
+                        font-size: 28px;
+                        color: #8873F7;
+                    }
+
+
+            }
         }
     }
+}
 
 
-
-
-
-
-
-
-
-
-    &__right {
-    
-        flex-grow: 2;
-    
-        position: relative;
-        background-image: url("../../assets/images/cicle.svg");
-        width: 500px;
-        height: 500px;
-        background-repeat: no-repeat;
-        background-position: center;
-    
-        img {
-          position: absolute;
-    
-          &:nth-child(1) {
-            top: 293px;
-            left: -79px;
-          }
-    
-          &:nth-child(2) {
-            bottom: -154px;
-            left: 26px;
-          }
-    
-          &:nth-child(3) {
-            top: 4px;
-            right: 395px;
-          }
-    
-          &:nth-child(4) {
-            bottom: 171px;
-            right: -8px;
-          }
-        }
-      }
-
-
-   }
-
-   
-
-
-
-   }
-    
